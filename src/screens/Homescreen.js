@@ -5,7 +5,7 @@ import Product from "../components/Product";
 export default function Homescreen() {
   return (
     <div>
-      <div class="row justify-content-center ">
+      <div className="row justify-content-center ">
         {products.map((product) => {
           return <Product product={product} />;
         })}
