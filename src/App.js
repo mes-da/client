@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homescreen />} exact />
-          <Route path="/products" element={<Productdescscreen />} />
+          <Route path="/products/:id" element={<Productdescscreen />} />
         </Routes>
       </BrowserRouter>
     </div>
